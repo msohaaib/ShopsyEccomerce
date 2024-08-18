@@ -34,7 +34,7 @@ return (
             {/* order Button */}
             <button 
             onClick={()=> alert("Order not available yet.")}
-            className='bg-gradient-to-t from-secondary transition-all duration-200 text-white'
+            className='bg-gradient-to-t from-primary to-secondary transition-all duration-200 text-white'
             >
                 <span>Order</span>
             </button>
