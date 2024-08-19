@@ -4,17 +4,17 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode : "class",
+  darkMode: "class",
   theme: {
     extend: {
-      colors :{
-        primary : "#fea928",
-        secondary : "#ed88900",
+      colors: {
+        primary: "#fea928",
+        secondary: "#ed8890",
       },
-      container : {
-        center : true,
-        padding : {
-          DEFAULT : "1rem",
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
           sm: "3rem"
         }
       }
