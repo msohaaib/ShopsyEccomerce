@@ -85,6 +85,7 @@ return (
 
             </Slider>
         </div>
+        <h1 className='text-5xl'>HELLO</h1>
     </div>
 )
 }
