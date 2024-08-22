@@ -77,7 +77,9 @@ return (
             </div>
 
             {/* Testimonials Card */}
-            <div>
+            <div
+            data-aos = "zoom-in"
+            >
                 <Slider {...settings}>
                     {
                         TestimonalData.map( (data) => (
