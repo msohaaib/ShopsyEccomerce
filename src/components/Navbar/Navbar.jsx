@@ -110,7 +110,9 @@ return (
         </div>
     </div>
     {/* Lower Navbar */}
-    <div className='flex justify-center'>
+    <div 
+    data-aos = "zoom-in"
+    className='flex justify-center'>
         <ul className='sm:flex hidden items-center gap-4'>
             {menu.map((data) => (
                 <li key={data.id}>

@@ -24,7 +24,7 @@ const imageList = [
     },
 ]
 
-const Hero = () => {
+const Hero = ({ handleOrderPopup }) => {
 
     let setting = {
         dots : false,
@@ -73,6 +73,7 @@ return (
                                 data-aos-delay = "300"
                                 >
                                     <button
+                                    onClick={handleOrderPopup}
                                     className='bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full'
                                     >Order Now</button>
                                 </div>
